@@ -48,3 +48,6 @@ def convert_time_to_thailand(country_name, timezone):
         print(f"The time in Thailand is: {thailand_time.strftime('%H:%M')}")
     except ValueError:
         print("Invalid time format. Please enter the time in HH:MM format.")
+
+if __name__ == "__main__":
+    main()
